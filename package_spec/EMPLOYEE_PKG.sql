@@ -7,4 +7,5 @@ AS
     function f_count_firstname( pi_fname IN EMPLOYEES.first_name%TYPE) return NUMBER;
 
 end EMPLOYEE_PKG;
+
 /
