@@ -1,5 +1,5 @@
 -- liquibase formatted SQL
--- changeset Pawel_TOMICKI: EMPLOYEE_PKG_SPEC runOnChange: true stripComments:false
+-- changeset Pawel_TOMICKI: EMP_PKG_SPEC runOnChange: true stripComments:false
 -- comment create EMPLOYEE_PKG specification
 create or replace package EMPLOYEE_PKG
 AS
