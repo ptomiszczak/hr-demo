@@ -3,7 +3,8 @@
 -- comment create SHOES_PKG specification
 create or replace package SHOES_PKG
 AS
-    function f_get_SHOES(pi_ID IN SHOES.ID%TYPE) return SHOES%ROWTYPE;
-end SHOES_PKG;
 
+    function f_get_SHOES(pi_ID IN SHOES.ID%TYPE) return SHOES%ROWTYPE;
+
+end SHOES_PKG;
 /
